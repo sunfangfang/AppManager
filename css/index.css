@@ -1,0 +1,141 @@
+@charset "utf-8";
+body{
+    padding: 10px;
+    background: #eef3fa;
+}
+.contain{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.con{
+    width: 99%;
+    margin: 0.5%;
+}
+.section{
+    width: 100%;
+    height: 100%;
+    background: #f9f9f9;
+    display: none;
+}
+.con1{
+    background: #f9f9f9;
+}
+.sec_contain{
+    width: 96%;
+    height: 91.5%;
+    background: #fff;
+    border: 1px solid #e6eaef;
+    padding: 2%;
+    overflow: auto;
+    box-sizing: content-box;
+}
+.sec_block{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e6eaef;
+    padding: 10px 0 20px 0;
+}
+.row{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.row_l{
+    width: 160px;
+    height: 50px;
+    text-align: right;
+    color: #6b6b6b;
+    font-size: 14px;
+    margin-right: 20px;
+    float: left;
+}
+.row_r{
+    width: 520px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+}
+.onoff{
+    width: 102px;
+    height: 34px;
+    border-radius: 4px;
+    border: 1px solid #ced4e0;
+    margin-top: 8px;
+}
+.onoff>span{
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    line-height: 34px;
+    float: left;
+    font-size: 14px;
+    color: #6b6b6b;
+}
+.on{
+    border-right: 1px solid #ced4e0;
+    border-radius: 4px 0 0 4px;
+    cursor: pointer;
+}
+.off{
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+.onoff>.onoff_check{
+    color: #fff;
+    background: #ed415b;
+}
+.row_small{
+    color: #ff1b3e;
+}
+.row_input{
+    width: 517px;
+    height: 34px;
+    border:1px solid #ced4e0;
+    border-radius: 4px;
+    padding: 0 10px;
+    color: #333333;
+    font-size: 14px;
+    line-height: 34px;
+    float: left;
+    margin-top: 10px;
+}
+.submit{
+    width: 100px;
+    height: 34px;
+    background: #09b7e9;
+    border-radius: 4px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 40%;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.submit:hover{
+    background: #09a9dc;
+}
+.sec_tit{
+    width: 100%;
+    height: 34px;
+    border-bottom: 1px solid #e6eaef;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.sec_tit span{
+    display: inline-block;
+    width:auto;
+    height: 16px;
+    border-left: 3px solid #ed415b;
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 16px;
+    padding-left: 5px;
+}
+.left_blue{
+    color: #09b7e9;
+}

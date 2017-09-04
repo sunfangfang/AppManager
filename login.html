@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="css/reset_s.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="js/placeholder.js"></script>
+    <script type="text/javascript">
+        $(window).load(function(){
+            conH()
+        });
+        $(window).resize(function() {
+            conH()
+        });
+        function conH() {
+            var H=$(window).height();
+            $(".contain").css("height", H);
+            var ww=$(window).width();
+            var hh=$(window).height();
+            if(ww/1920*900>hh){
+                $("#bg").css({width:"100%", height:"auto", overflow:"hidden"});
+            }
+            else {
+                $("#bg").css({height:"100%", width:"auto", overflow:"hidden"});
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="bg">
+    <img src="img/login/login_bg.png" alt="" class="login_bg" id="bg">
+</div>
+<div class="contain">
+    <div class="container">
+        <div class="top">
+            <div class="top_l"></div>
+            <div class="top_r">
+                <div class="kf">客服热线：400-100-7592</div>
+                <ul>
+                    <li><a href="javascript:void(0);">熊宝贝官网</a></li>
+                    <li><a href="javascript:void(0);">熊宝贝U选</a></li>
+                    <li><a href="javascript:void(0);">66结婚网</a></li>
+                    <li><a href="javascript:void(0);">微信商城</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="login_box">
+            <div class="login_tit">
+                <div class="logo"><img src="img/login/login_logo.png" alt=""></div>
+                <div class="text"><img src="img/login/login_text.png" alt=""></div>
+            </div>
+            <div class="login_bottom">
+                <div class="div_user">
+                    <input type="text" class="input_t" placeholder="手机号/邮箱"/>
+                </div>
+                <div class="div_pass">
+                    <input type="text" class="input_t input_s" placeholder="密码"/>
+                </div>
+                <div class="div_cls">
+                    <input type="text" class="test" placeholder="请输入验证码">
+                    <small>|</small>
+                    <a href="javascript:void(0);">获取验证码</a>
+                </div>
+                <a href="#2" class="a_login">登录</a>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="quanx">本系统授权：蜜雪秘境婚纱晚礼服</div>
+            <div class="coopyright">ERP CPU:XBB-15V1.0.0.0</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

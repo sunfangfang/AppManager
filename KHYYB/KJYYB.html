@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>客户预约表</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset_s.css">
+    <link rel="stylesheet" type="text/css" href="../css/top.css">
+    <link rel="stylesheet" type="text/css" href="../css/table.css">
+    <link rel="stylesheet" type="text/css" href="../css/reveal.css">
+    <link rel="stylesheet" type="text/css" href="../css/tc.css">
+    <link rel="stylesheet" type="text/css" href="../css/pagination.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <script type="text/javascript" src="../js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="../js/jquery.reveal.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+</head>
+<body>
+<div class="contain">
+    <div class="title">
+        <div class="top_src">
+            <span class="src_span">预约日期 : </span>
+            <input type="text" class="src_sel">
+            <input type="text" class="src_sel">
+            <span class="src_span">预约类型 : </span>
+            <div class="sel_box">
+                <span>选片日期</span>
+                <ul>
+                    <li>选片日期</li>
+                    <li>选片日期</li>
+                    <li>选片日期</li>
+                </ul>
+            </div>
+            <span class="src_span">审核状态 : </span>
+            <div class="sel_box">
+                <span>选片日期</span>
+                <ul>
+                    <li>选片日期</li>
+                    <li>选片日期</li>
+                    <li>选片日期</li>
+                </ul>
+            </div>
+            <a class="src_btn tb_blue">查询</a>
+            <a class="src_btn tb_blue">导出</a>
+        </div>
+    </div>
+    <div class="con">
+        <div class="m_table" style="border-bottom:none;">
+            <table class="table  table-hover table-striped">
+                <thead class="tb_th_bga"><!-- 如果是在tab切换里面时候，th的class="tb_th_bgb";一般状态下用class="tb_th_bga"  -->
+                <tr>
+                    <td style="width: 65px;">序</td>
+                    <td style="width: 50px;">操作</td>
+                    <td>客户编号</td>
+                    <td>客户姓名</td>
+                    <td>客户手机</td>
+                    <td>预约类型</td>
+                    <td>预约日期</td>
+                    <td>审核状态</td>
+                    <td>审核原因</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td><label class="tb_xh"><input name="" type="checkbox" value=""><span class="span_ms">1</span></label></td><!--序号check用这格式  -->
+                    <td class="tb_bj_btn">
+                        <div class="tb_bj"><a href="#" data-reveal-id="edit">编辑</a></div><!--增加编辑按钮格式 -->
+                    </td>
+                    <td>L0001</td>
+                    <td>李晓晓</td>
+                    <td>18800002542</td>
+                    <td>已选</td>
+                    <td>2016-01-01</td>
+                    <td>通过</td>
+                    <td>52</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tj_foot">
+            <div class="tb_bottom"><!--公共底部功能（显示，按钮，分页） -->
+                <div class="tb_pag">
+                    <span class="tb_pag_xs"> 每页显示20条&nbsp;&nbsp;共<label>29</label>条 </span>
+                    <div class="quotes" id="Pagination">
+                        <span class="prev">&nbsp;&nbsp;&nbsp;</span>
+                        <span class="current">5</span>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">6</a>
+                        <a href="#">7</a>
+                        <a href="#">8</a>
+                        <a href="#" class="next">&nbsp;&nbsp;&nbsp;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--编辑弹窗-->
+<div class="box" id="edit" style="width:510px;">
+    <div class="box_tit">
+        <div class="box_t_name">编辑</div>
+        <div href="#" class="box_close close-reveal-modal"></div>
+    </div>
+    <div class="box_con" style="height: 380px;">
+        <div class="box_row">
+            <label class="box_label">
+                <span class="tc_span" style="margin-top: 10px">客户编号 :</span>
+                <input type="text" class="box_input" value="L0001" disabled="disabled">
+            </label>
+        </div>
+        <div class="box_row">
+            <label class="box_label">
+                <span class="tc_span" style="margin-top: 10px">审核状态 :</span>
+                <select class="box_sel"></select>
+            </label>
+        </div>
+        <div class="box_row">
+            <label class="box_label">
+                <span class="tc_span" style="margin-top: 10px">审核原因 :</span>
+                <textarea></textarea>
+            </label>
+        </div>
+    </div>
+    <div class="gbox_btm">
+        <button href="#" class="gbox_btn_clear close-reveal-modal">取消</button>
+        <button class="gbox_btn_save  tb_orange close-reveal-modal">保存</button>
+    </div>
+</div>
+<!--table选中状态 -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('table tbody tr:odd').addClass('mtr_bg');
+        $(".table tbody tr").click(function(){
+            $('table tbody tr').removeClass('mtr_bg_act');
+            $('table tbody tr:odd').addClass('mtr_bg');
+            $(this).removeClass('mtr_bg');
+            $(this).addClass('mtr_bg_act');
+        });
+        $(".tb_bj_btn").hover(function(){
+            $(this).children('div').toggle();
+        });
+
+    });
+</script>
+</body>
+</html>

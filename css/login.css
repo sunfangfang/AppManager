@@ -1,0 +1,180 @@
+@charset "utf-8";
+body {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.contain {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+}
+.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 900px;
+    height: 100%;
+    margin: auto;
+}
+.top{
+    width: 100%;
+    height: 100px;
+}
+.top_l{
+    float: left;
+    width: 285px;
+    height: 100%;
+    background:url("../img/login/bear_logo.png") no-repeat center center;
+}
+.top_r{
+    float: right;
+    width: 360px;
+}
+.kf{
+    float: right;
+    width: auto;
+    padding-left: 20px;
+    background: url("../img/login/phone.png") no-repeat left center;
+    margin-top: 30px;
+}
+.top_r ul{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    float: left;
+}
+.top_r ul li{
+    float: left;
+    width: 25%;
+    font-size: 14px;
+    text-align: right;
+}
+.top_r ul li a{
+    color: #342b26;
+}
+.login_bg {
+    width: 100%;
+    height: 100%;
+}
+
+.login_box {
+    position: absolute;
+    top: 50%;
+    margin-top: -271px;
+    left: 50%;
+    margin-left: -266px;
+    width: 569px;
+    height: 583px;
+    background: url("../img/login/login_box.png") no-repeat center center;
+}
+
+.login_tit {
+    width: 100%;
+    height: 240px;
+    /*background: url("../img/login/login_tit.png") no-repeat center center;*/
+}
+.logo{
+    width:125px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin: 60px 0 0 90px;
+}
+.text {
+    float: left;
+    margin: 80px 0 0 10px;
+}
+
+/*添加样式*/
+.login_bottom {
+    width: 340px;
+    margin: 0 auto;
+}
+
+.div_user {
+    width: 340px;
+    height: 51px;
+    line-height: 51px;
+    background: url(../img/login/user.png) no-repeat center;
+    margin-bottom: 10px;
+}
+.div_pass{
+    width: 340px;
+    height: 51px;
+    line-height: 51px;
+    margin-bottom: 10px;
+    background: url(../img/login/password.png) no-repeat center;
+}
+
+.input_t {
+    font-size: 14px;
+    color: #999;
+    font-family: "微软雅黑";
+    height: 45px;
+    line-height: 45px;
+    background: #fff;
+    margin-left: 14%;
+    width: 290px;
+}
+
+.div_cls {
+    width: 342px;
+    height: 51px;
+    clear: both;
+    background: url("../img/login/test.png") no-repeat center center;
+}
+
+.test {
+    width: 190px;
+    margin-left: 20px;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 4px;
+    font-size: 14px;
+    color: #999;
+    font-family: "微软雅黑";
+    background: #fff;
+    float: left;
+}
+.div_cls small{
+    font-size: 16px;
+    color: #b99a99;
+    margin:15px;
+    float: left;
+}
+.div_cls a{
+    font-size: 16px;
+    color: #ed415b;
+    float: left;
+    margin-top: 15px;
+}
+.a_login {
+    width: 100%;
+    display: block;
+    clear: both;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    margin-top: 20px;
+    background: url(../img/login/login.png) no-repeat center;
+    height: 54px;
+    line-height: 51px;
+}
+.bottom{
+    width: 100%;
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #4f4348;
+}
